@@ -1,0 +1,12 @@
+import {FC} from "react";
+import './styles.module.css';
+
+const Header: FC = (props) => {
+  return (
+    <header className={"header"}>
+      {props.children}
+    </header>
+  )
+}
+
+export default Header;
