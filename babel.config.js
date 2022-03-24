@@ -15,11 +15,13 @@ module.exports = {
       }]
   ],
   plugins : [
-     ["@babel/plugin-proposal-class-properties"],
-     ["@babel/plugin-transform-runtime",{
-         corejs:3
-     }],
-     ["@babel/plugin-transform-react-jsx", {
-        runtime: "automatic"
-     }]  ]
+      ["@babel/plugin-proposal-class-properties"],
+      ["babel-plugin-styled-components"],      
+      ["@babel/plugin-transform-runtime",{
+          corejs:3
+      }],
+      ["@babel/plugin-transform-react-jsx", {
+          runtime: "automatic"
+      }]
+  ]
 }

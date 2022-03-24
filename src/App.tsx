@@ -1,11 +1,38 @@
 import React, {ChangeEventHandler, FC, useEffect, useRef, useState} from 'react';
 import useAudioVisualization from "./hooks/useAudioVisualization";
-import './styles.module.css';//css modules
+
 import { defaultPlayList, PlayListItem } from "./constants";
 import Header from "./components/Header";
 import Player from "./components/Player";
 import PlayList from "./components/PlayList";
 import { padLeft } from "./utils";
+
+/*------------style-s-----------------*/
+import styled from 'styled-components';
+
+const Appdiv = styled.div`
+  display: flex;
+  padding: 16px;
+  background: linear-gradient(0, #181929, 10%, #404264, 90%, #181929, 100%, #404264);
+  border-radius: 6px;      
+`;
+
+const Playdiv = styled.div`
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+`;
+
+const Playlistdiv = styled.div`
+    margin-left: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+`;
+
+/*------------style-e-----------------*/
 
 const App: FC = () => {
   const {visualize, stopVisualize, resetCanvas} = useAudioVisualization('#canvas', 50);
@@ -61,20 +88,20 @@ const App: FC = () => {
   }, []);
 
   return (
-    <div className={"app"}>
-      <div className={"playerWrapper"}>
+    <Appdiv>
+      <Playdiv>
         <Header>
           正在播放：{curtAudio.name}
           <span style={{ marginLeft: "auto" }}>{curtTime}</span>
         </Header>
         <Player ref={audioRef} onPlay={onPlay} onPause={onPause} playItem={curtAudio} />
-      </div>
+      </Playdiv>
 
-      <div className={"playListWrapper"}>
+      <Playlistdiv>
         <Header>播放列表</Header>
         <PlayList playList={playList} playItem={curtAudio} onUpload={onUpload} setPlayItem={setCurtAudio} />
-      </div>
-    </div>
+      </Playlistdiv>
+    </Appdiv>
   )
 }
 
