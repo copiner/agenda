@@ -14,7 +14,7 @@ const Appdiv = styled.div`
   display: flex;
   padding: 16px;
   background: linear-gradient(0, #181929, 10%, #404264, 90%, #181929, 100%, #404264);
-  border-radius: 6px;      
+  border-radius: 6px;
 `;
 
 const Playdiv = styled.div`
@@ -30,6 +30,10 @@ const Playlistdiv = styled.div`
     flex-direction: column;
     justify-content: space-between;
 
+`;
+
+const Curspan = styled.span`
+    margin-left: auto;
 `;
 
 /*------------style-e-----------------*/
@@ -92,7 +96,7 @@ const App: FC = () => {
       <Playdiv>
         <Header>
           正在播放：{curtAudio.name}
-          <span style={{ marginLeft: "auto" }}>{curtTime}</span>
+          <Curspan>{curtTime}</Curspan>
         </Header>
         <Player ref={audioRef} onPlay={onPlay} onPause={onPause} playItem={curtAudio} />
       </Playdiv>
