@@ -1,6 +1,24 @@
 import React, {Ref} from "react";
-import "./styles.module.css";
 import {PlayListItem} from "../../constants";
+import styled from 'styled-components';
+
+const Canvasdiv = styled.div`
+    display: flex;
+    border-radius: 6px;
+    border: 4px solid black;
+    margin-bottom: 16px;
+`;
+const Controldiv = styled.div`
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    audio {
+      background: white;
+      border-radius: 6px;
+      flex: 1;
+    }
+`;
 
 interface Props {
   onPlay: () => void;
@@ -12,14 +30,14 @@ const Player = React.forwardRef((props: Props, audioRef: Ref<HTMLAudioElement>) 
   const { playItem, onPlay, onPause } = props;
 
   return (
-    <div className={"player"}>
-      <div className={"canvas"}>
+    <>
+      <Canvasdiv>
         <canvas id="canvas" width={500} height={300}/>
-      </div>
-      <div className={"controls"}>
+      </Canvasdiv>
+      <Controldiv>
         <audio ref={audioRef} src={playItem.url} onPlay={onPlay} onPause={onPause} controls />
-      </div>
-    </div>
+      </Controldiv>
+    </>
   )
 })
 
