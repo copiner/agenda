@@ -1,0 +1,35 @@
+* org-mode
+
+** outline
+zxcvjklasdfghnbvbnvcvczxcvjklasdfghnbvbnvcvczxcvjklasdfghnbvbnvcvc
+zxcvjklasdfghnbvbnvcvczxcvjklasdfghnbvbnvcvc
+zxcvjklasdfghnbvbnzxcvjklasdfghnbvbnvcvc
+zxcvjklasdfghnbvbnvcvczxcvjklasdfghnbvbnvcvczxcvjklasdfghnbvbnvcvc
+zxcvjklasdfghnbvbzxcvjklasdfghnbvbzxcvjklasdfghnbvbnvcvc
+** little wrod
+zxcvjklasdfghnbvbzxcvjklasdfghnbvbzxcvjklasdfghnbv
+zxcvjklasdfghnbvbzxcvjklasdfghnbvbzxcvjklasdfghnbvbnvcvc
+
+* shifit
+c-c c-n
+
+c-c c-f
+
+c-c c-u
+
+* pdf word other
+** test
+support html pdf etcsss
+zxcvjklasdfghnbvbzxcvjklasdfghnbvbzxcvjklasdfghnbvbnvcvc
+zxcvjklasdfghnbvbzxcvjklasdf
+zxcvjklasdfghnbvbzxcvjklasdfghnbvbzxcvjklasdfghnbv
+zxcvjklasdfghnbvbzxcvjklasdfghnbvbzxcvjklasdfghnbvbnvcvc
+zxcvjklasdfghnbvbzxcvjklasdfghnbvbzxcvjklasdfghnbv
+zxcvjklasdfghnbvbzxcvjklasdfghnbvbzxcvjklasdfghnbvbnvcvcS
+
+* doit
+/awry/
+*upright*
+-----
+* GTD
+Getting Things Done: The Art of Stress-Free Productivity

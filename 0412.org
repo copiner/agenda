@@ -1,0 +1,198 @@
+* org-mode
+
+** outline
+zxcvjklasdfghnbvbnvcvczxcvjklasdfghnbvbnvcvczxcvjklasdfghnbvbnvcvc
+zxcvjklasdfghnbvbnvcvczxcvjklasdfghnbvbnvcvc
+zxcvjklasdfghnbvbnzxcvjklasdfghnbvbnvcvc
+zxcvjklasdfghnbvbnvcvczxcvjklasdfghnbvbnvcvczxcvjklasdfghnbvbnvcvc
+zxcvjklasdfghnbvbzxcvjklasdfghnbvbzxcvjklasdfghnbvbnvcvc
+** little wrod
+zxcvjklasdfghnbvbzxcvjklasdfghnbvbzxcvjklasdfghnbv
+zxcvjklasdfghnbvbzxcvjklasdfghnbvbzxcvjklasdfghnbvbnvcvc
+
+* shifit
+** c-c c-n
+disgusting interesting disgusting interesting 
+disgusting interedisgusting intereinteredisgusting interesting 
+** c-c c-f
+interedisgusting interesting interedisgusting interesting 
+** c-c c-u
+interedisgustiinteredisgusting interesting 
+* pdf word other
+** test
+*** support html pdf etcsss
+zxcvjklasdfghnbvbzxcvjklasdfghnbvbzxcvjklasdfghnbvbnvcvc
+zxcvjklasdfghnbvbzxcvjklasdf
+zxcvjklasdfghnbvbzxcvjklasdfghnbvbzxcvjklasdfghnbv
+zxcvjklasdfghnbvbzxcvjklasdfghnbvbzxcvjklasdfghnbvbnvcvc
+zxcvjklasdfghnbvbzxcvjklasdfghnbvbzxcvjklasdfghnbv
+zxcvjklasdfghnbvbzxcvjklasdfghnbvbzxcvjklasdfghnbvbnvcvcS
+
+* doit
+** view
+TAB
+c-u TAB
+shift TAB
+folded--children--subtree
+overview--contents--showall
+** move
+c-c c-n
+c-c c-p
+c-c c-f
+c-c c-b
+c-c c-u
+** edit
+M-RET
+M-S(shifit)-RET
+M-S-LEFT/RIGHT
+M-S-UP/DOWN
+
+C-c C-w
+** tree
+search view tree
+*** C-c /
+C-c / r
+
+* text list
+** lord of the Rings
+   My favorite diary food
+   1.The attack of Rohirrim
+   2.Eowyn's fight with the witch king
+     + this was already my favorite scene in the book
+     + I really like Miranda Otto.
+   Import actors in this film are
+   - Elijah :: He play Frodo
+   - Sean Austin :: He plays Sam, Frodo's friend.
+
+** foot
+The Org homepage[fn:1] now looks a lot better than it used to
+...
+[fn:1] The link is: http://orgmode.org
+
+C-c C-x f
+C-c C-c
+
+* table
+| name | phone | age |
+|------+-------+-----|
+|      |       |     |
+
+|name|phone|age C-c RET
+
+** move
+C-c C-c
+TAB
+S(shift)-TAB
+RET
+
+** edit
+
+M-LEFT/RIGHT
+M-S-LEFT
+M-S-RIGHT
+M-UP/DOWN
+
+M-S-UP
+M-S-DOWN
+
+C-c -
+C-c RET
+C-c ^
+* link
+[[]]
+[[http://orgmode.org]]
+
+[[][]]
+[[http://www.gun.org/software/emacs][GUN Emacs]]
+
+*** operator
+    C-c l
+    C-c C-l
+    C-c C-l
+    C-c C-o
+* todo
+
+*** TODO Write letter to Sam Fortune
+
+*** TODO [#A] hi there
+
+*** commands
+C-c C-t  unmarked --todo --done
+S(shift)-RIGHT/LEFT
+C-c / t
+C-c a t
+
+S-M-RET
+
+C-c ,
+S-UP/DOWN
+
+** process 
+
+* Organize Party [66%]
+** DONE Call people [2/2]
+*** DONE Peter
+*** DONE Sarah
+** TODO Buy food
+** DONE Talk to neighbor
+
+* TODO Organized party [1/3]
+  - [-] call people [2/3]
+    - [ ] Tim
+    - [X] Peter
+    - [X] Sarah
+  - [X] order food
+  - [ ] think about what music to play
+
+C-c C-c
+M-S-RET
+
+* tags
+
+* Meeting with the French group     :work:
+** Summary by Frank                 :boss:notes:
+*** TODO Prepare slides for him     :action:
+
+* tagstest                                                             :test:
+C-c C-q
+C-c C-c
+
+C-c \
+C-c / m
+C-c a m
+C-c a M
+* proterties
+C-c C-x p
+C-c C-c d
+* date
+** Meet Peter at the movies<2019-04-13 周六>
+** Discussion on climate change[2019-04-12 周五]
+
+** Pick up Sam at school
+** Meeting in Amsterdam
+
+C-c .
+C-c !
+S(shift)-LEFT/RIGHT
+S(shift)-UP/DOWN
+
+*** TODO Write article about the Earth for the Guide
+    DEADLINE: <2019-04-15 周一>
+C-c C-d
+*** TODO Call Trillian for a date on New Year Eve
+    SCHEDULED: <2019-04-12 周五>
+C-c C-s
+
+** record date
+record date at emacs
+C-c C-x C-i
+C-c C-x C-o
+C-c C-x C-e
+...
+
+* agenda
+
+
+* GTD
+
+Getting Things Done: The Art of Stress-Free Productivity

@@ -1,0 +1,6 @@
+* 0517
+** TODO enhance programing ability
+*** js base
+*** sql
+*** python
+*** deligent
