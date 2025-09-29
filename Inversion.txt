@@ -1,0 +1,84 @@
+一、完全倒装（Full Inversion）
+定义：整个谓语动词移至主语前，常见于以下场景：
+
+1. 地点/方向副词开头的句子
+例句：
+
+Here comes the bus.（公交车来了。）
+
+There goes the bell!（铃声响了！）
+
+Up flew the eagle into the sky.（老鹰飞向天空。）
+
+注意：若主语是代词，不倒装（如：Here it comes.）。
+
+2. 表语前置（强调地点/状态）
+例句：
+
+In the corner stands an ancient piano.（角落里立着一架古老的钢琴。）
+
+Gone are the days when we played together.（我们一起玩耍的日子一去不返。）
+
+3. 直接引语后接“said/asked”等动词
+例句：
+
+"Help me!" cried the little girl.（“救救我！”小女孩喊道。）
+
+"Where are you?" asked John.（“你在哪儿？”约翰问道。）
+
+二、部分倒装（Partial Inversion）
+定义：仅将助动词/情态动词/系动词移至主语前，常见于以下场景：
+
+1. 否定词或半否定词开头
+关键词：Never, Seldom, Rarely, Little, Hardly, Not until, No sooner...than...
+
+例句：
+
+Never have I seen such a beautiful sunset.（我从未见过如此美丽的日落。）
+
+Not until midnight did he finish his work.（直到午夜他才完成工作。）
+
+Hardly had she left when it started to rain.（她刚离开，天就下雨了。）
+
+2. “Only + 状语”开头
+例句：
+
+Only in this way can you solve the problem.（只有用这种方法，你才能解决问题。）
+
+Only after failure did he realize his mistake.（只有在失败后，他才意识到错误。）
+
+3. “So/Such...that...”结构前置
+例句：
+
+So fast did he run that no one could catch him.（他跑得太快，没人能追上。）
+
+Such a loud noise did they make that I couldn't sleep.（他们制造的噪音太大，我无法入睡。）
+
+4. 虚拟条件句省略“if”
+例句：
+
+Were I you (=If I were you), I would accept the offer.（如果我是你，我会接受这个提议。）
+
+Had he known the truth (=If he had known), he wouldn't have blamed her.（如果他早知道真相，就不会责怪她了。）
+
+5. “as/though”引导的让步状语从句
+例句：
+
+Child as he is, he knows a lot about history.（尽管是个孩子，他懂很多历史知识。）
+
+Hard though they tried, they failed to win.（尽管他们很努力，但还是没能获胜。）
+
+三、特殊倒装结构
+1. “So/Neither/Nor”表示附和
+例句：
+
+She loves coffee. So do I.（她喜欢咖啡，我也喜欢。）
+
+He can't swim. Neither can his brother.（他不会游泳，他弟弟也不会。）
+
+2. 感叹句中的倒装
+例句：
+
+How beautiful is the night!（夜晚多美啊！）
+
+What a wonderful performance did they give!（他们的表演多精彩啊！）
